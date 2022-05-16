@@ -1,0 +1,27 @@
+{
+  "checkins": [
+    {
+      "checkin": {
+        "vno": "TN12R5297",
+        "vtype": "car",
+        "floor": "1",
+        "rackno": "A",
+        "date": "12/12/22",
+        "time": "7:00:00"
+      },
+      "id": 1
+    },
+    {
+      "checkin": {
+        "vno": "TN12R5298",
+        "vtype": "car",
+        "floor": "1",
+        "rackno": "B",
+        "date": "10/12/22",
+        "time": "8:00:00"
+      },
+      "id": 2
+    }
+  ],
+  "rackdetails": []
+}

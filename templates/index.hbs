@@ -1,0 +1,28 @@
+{{page-title "Parking"}}
+
+<h1>PARKING APPLICATION</h1>
+
+    <table style="position: relative;top: 50px; left: 30px" width="100%">
+        <tr>
+            <td>
+                <LinkTo @route="parking.checkin">
+                <h2>CHECKIN</h2>
+                </LinkTo>
+
+            </td>
+            <td>
+                <LinkTo @route="parking.rackdetails">
+                <h2>RACK CHECK</h2>
+                </LinkTo>
+
+            </td>
+            <td>
+                <LinkTo @route="parking.checkout">
+                <h2>CHECKOUT</h2>
+                </LinkTo>
+
+            </td>
+
+        </tr>
+    </table>
+    {{outlet}}
